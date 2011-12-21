@@ -1,4 +1,3 @@
-set nocompatible
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -7,8 +6,8 @@ set nocompatible
 set history=700
 
 " Enable filetype plugin
-"filetype plugin on
-"filetype indent on
+filetype plugin on
+filetype indent on
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -34,9 +33,6 @@ set smarttab
 set lbr
 set tw=500
 
-"set ai "Auto indent
-set si "Smart indet
-set wrap "Wrap lines
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -91,6 +87,10 @@ set ttyfast
 set laststatus=2
 set number
 set paste
+
+set ai "Auto indent
+set si "Smart indet
+set wrap "Wrap lines
 
 " Use the damn hjkl keys
 nnoremap <up> <nop>
