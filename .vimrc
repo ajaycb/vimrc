@@ -102,10 +102,8 @@ nnoremap j gj
 nnoremap k gk
 
 " Easy buffer navigation
-map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
-map <C-l> <C-w>l
 map <leader>w <C-w>v<C-w>l
 
 " OS cut copy paste
@@ -251,3 +249,13 @@ let g:speckyRunSpecKey       = "<C-p>s"
 let g:speckyWindowType       = 2
 let g:speckyRunSpecCmd = "/usr/local/rvm/rubies/ree-1.8.7-2011.03/bin/ruby /usr/local/rvm/gems/ree-1.8.7-2011.03/gems/rspec-1.3.2/bin/spec"
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => MiniBuf Explorer
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1 
+
+set number
