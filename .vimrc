@@ -81,7 +81,6 @@ set showmode
 set showcmd
 set hidden
 set wildmode=list:longest
-set visualbell
 set cursorline
 set ttyfast
 set laststatus=2
