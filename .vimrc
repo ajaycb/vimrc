@@ -110,6 +110,7 @@ map <leader>w <C-w>v<C-w>l
 map <leader>c "+y
 map <leader>x "+x
 map <leader>p "+gp
+map <leader>v "+gp
 
 " Clean whitespace
 map <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
@@ -151,6 +152,7 @@ if has("gui_running")
   set background=dark
   colorscheme desert
   set nonu
+  set guifont=Monospace\ 8
 else
   colorscheme desert
   set background=dark
