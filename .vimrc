@@ -263,3 +263,9 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1 
 
 set number
+
+set statusline=
+set statusline=%F%m%r%h%w\ 
+set statusline+=%{fugitive#statusline()}\    
+set statusline+=\ [#\ %l\/%L]          
+set statusline+=%=%2*0x%04B\ %*          "character under cursor
