@@ -122,7 +122,7 @@ let Tlist_WinWidth = 50
 map <F4> :TlistToggle<cr>
 
 " Ack
-map <leader>a "zyiw:exe "Ack -follow ".@z.""<CR>
+map <leader>a "zyiw:exe "Ack ".@z.""<CR>
 
 
 " Shouldn't need shift
