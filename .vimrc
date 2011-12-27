@@ -251,7 +251,7 @@ nnoremap <Leader>g :%s/\<<C-r><C-w>\>//g<Left><Left>
 let g:speckySpecSwitcherKey  = "<C-p>x"
 let g:speckyRunSpecKey       = "<C-p>s"
 let g:speckyWindowType       = 2
-let g:speckyRunSpecCmd = "/usr/local/rvm/rubies/ree-1.8.7-2011.03/bin/ruby /usr/local/rvm/gems/ree-1.8.7-2011.03/gems/rspec-1.3.2/bin/spec"
+let g:speckyRunSpecCmd = "/home/ajay/.rvm/rubies/ree-1.8.7-2010.02/bin/ruby /home/ajay/.rvm/gems/ree-1.8.7-2010.02/gems/rspec-1.3.2/bin/spec"
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
